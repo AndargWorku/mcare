@@ -7,7 +7,7 @@ const ServiceList = () => {
         {
             services.map((item, index)=>(
                 <ServiceCard item={item} index={index} key={index}/>
-            ))
+             ))
         }
       
     </div>
